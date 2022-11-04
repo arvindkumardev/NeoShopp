@@ -1,0 +1,258 @@
+export const data =
+  // [
+  //   {
+  //     id: 1,
+  //     product_category_id: 1,
+  //     name: 'Centre Coffee Table',
+  //     producer: 'Luna',
+  //     description:
+  //       'Mild Steel Base In Poder Coated White Finish.8 mm Tempered Glass Table Top.Bottom Shelf In Paimted Brown Glass.',
+  //     cost: 5000,
+  //     rating: 3,
+  //     view_count: 29929,
+  //     created: '2015-09-07T09:24:05+0000',
+  //     modified: '2022-10-31T19:04:33+0000',
+  //     isFavorite: false,
+  //     product_images:
+  //       'http://staging.php-dev.in:8844/trainingapp/uploads/prod_img/thumb/medium/9dc6234da018916e545011fa1.jpeg',
+  //   },
+  //   {
+  //     id: 2,
+  //     product_category_id: 1,
+  //     name: 'Metal Coffee Table',
+  //     producer: 'Karlo',
+  //     description:
+  //       'Chrome Plated Mild Steel Table Base .8 mm Tempered Glass Table Top.Bottom Shelf In Paimted Brown Glass.',
+  //     cost: 6666,
+  //     rating: 3,
+  //     view_count: 29929,
+  //     created: '2015-09-07T09:24:05+0000',
+  //     modified: '2022-10-31T19:04:33+0000',
+  //     isFavorite: true,
+  //     product_images:
+  //       'http://staging.php-dev.in:8844/trainingapp/uploads/prod_img/thumb/medium/9dc6234da018916e545011fa1.jpeg',
+  //   },
+  //   {
+  //     id: 3,
+  //     product_category_id: 1,
+  //     name: 'Table',
+  //     producer: 'Luna',
+  //     description:
+  //       'Mild Steel Base In Poder Coated White Finish.8 mm Tempered Glass Table Top.Bottom Shelf In Paimted Brown Glass.',
+  //     cost: 5000,
+  //     rating: 3,
+  //     view_count: 29929,
+  //     created: '2015-09-07T09:24:05+0000',
+  //     modified: '2022-10-31T19:04:33+0000',
+  //     isFavorite: false,
+  //     product_images:
+  //       'http://staging.php-dev.in:8844/trainingapp/uploads/prod_img/thumb/medium/9dc6234da018916e545011fa1.jpeg',
+  //   },
+  //   {
+  //     id: 4,
+  //     product_category_id: 1,
+  //     name: 'Centre Coffee Table',
+  //     producer: 'Luna',
+  //     description:
+  //       'Mild Steel Base In Poder Coated White Finish.8 mm Tempered Glass Table Top.Bottom Shelf In Paimted Brown Glass.',
+  //     cost: 5000,
+  //     rating: 3,
+  //     view_count: 29929,
+  //     created: '2015-09-07T09:24:05+0000',
+  //     modified: '2022-10-31T19:04:33+0000',
+  //     isFavorite: true,
+  //     product_images:
+  //       'http://staging.php-dev.in:8844/trainingapp/uploads/prod_img/thumb/medium/9dc6234da018916e545011fa1.jpeg',
+  //   },
+  //   {
+  //     id: 5,
+  //     product_category_id: 1,
+  //     name: 'Bed',
+  //     producer: 'Luna',
+  //     description:
+  //       'Mild Steel Base In Poder Coated White Finish.8 mm Tempered Glass Table Top.Bottom Shelf In Paimted Brown Glass.',
+  //     cost: 5000,
+  //     rating: 3,
+  //     view_count: 29929,
+  //     created: '2015-09-07T09:24:05+0000',
+  //     modified: '2022-10-31T19:04:33+0000',
+  //     isFavorite: true,
+  //     product_images:
+  //       'http://staging.php-dev.in:8844/trainingapp/uploads/prod_img/thumb/medium/9dc6234da018916e545011fa1.jpeg',
+  //   },
+  //   {
+  //     id: 6,
+  //     product_category_id: 1,
+  //     name: 'Coffee Table',
+  //     producer: 'Luna',
+  //     description:
+  //       'Mild Steel Base In Poder Coated White Finish.8 mm Tempered Glass Table Top.Bottom Shelf In Paimted Brown Glass.',
+  //     cost: 5000,
+  //     rating: 3,
+  //     view_count: 29929,
+  //     created: '2015-09-07T09:24:05+0000',
+  //     modified: '2022-10-31T19:04:33+0000',
+  //     isFavorite: false,
+  //     product_images:
+  //       'http://staging.php-dev.in:8844/trainingapp/uploads/prod_img/thumb/medium/9dc6234da018916e545011fa1.jpeg',
+  //   },
+  // ];
+
+  [
+    {
+      id: 1,
+      product_category_id: 1,
+      name: 'Centre Coffee Table',
+      producer: 'Luna',
+      description:
+        'Mild Steel Base In Poder Coated White Finish.8 mm Tempered Glass Table Top.Bottom Shelf In Paimted Brown Glass.',
+      cost: 5000,
+      rating: 3,
+      view_count: 30108,
+      created: '2015-09-07T09:24:05+0000',
+      modified: '2022-11-03T08:05:00+0000',
+      product_images:
+        'https://5.imimg.com/data5/SA/PS/YX/SELLER-100310035/sheesham-wood-round-center-coffee-table-set-1000x1000.jpg',
+      favourite: false,
+    },
+    {
+      id: 2,
+      product_category_id: 1,
+      name: 'Metal Coffee Table',
+      producer: 'Karlo',
+      description:
+        'Chrome Plated Mild Steel Table Base .8 mm Tempered Glass Table Top.Bottom Shelf In Paimted Brown Glass.',
+      cost: 6666,
+      rating: 3,
+      view_count: 11833,
+      created: '2015-09-07T09:39:19+0000',
+      modified: '2022-11-03T08:07:11+0000',
+      favourite: false,
+      product_images:
+        'https://cdn.shopify.com/s/files/1/0434/1104/6567/products/bnhyd9wqbn0b8hc2zbbq_512x512.jpg?v=1636562338',
+    },
+    {
+      id: 3,
+      product_category_id: 1,
+      name: 'Vishwakarma Solid Table',
+      producer: 'Lelo',
+      description:
+        'Vishwakarma Furniture Solid Wood Coffee Table (Finish Color - Dark Black)',
+      cost: 3333,
+      rating: 3,
+      view_count: 11597,
+      created: '2015-09-07T09:43:15+0000',
+      modified: '2022-11-03T06:40:50+0000',
+      favourite: false,
+      product_images:
+        'https://jodhpurtrends.in/wp-content/uploads/2019/05/Restaurant-Furniture-Restaurant-Table-Solid-Wood-Table-Hotel-Chairs-and-Tables.jpg',
+    },
+    {
+      id: 13,
+      product_category_id: 1,
+      name: '4 Seater Dining Table',
+      producer: 'Future Furniture Center',
+      description:
+        "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      cost: 27390,
+      rating: 2,
+      view_count: 13579,
+      created: '2015-09-14T10:15:45+0000',
+      modified: '2022-11-03T08:06:23+0000',
+      favourite: false,
+      product_images:
+        'https://cdn.shopify.com/s/files/1/1890/8745/products/Buy-Compact-Wooden-Dining-table-with-1-Bench-3-chairs-furniture-set-for-modern-Home_600x.jpg?v=1637950097',
+    },
+    {
+      id: 14,
+      product_category_id: 1,
+      name: 'computer table ',
+      producer: 'producer',
+      description:
+        'Mild Steel Base In Poder Coated White Finish.8 mm Tempered Glass Table Top.Bottom Shelf In Paimted Brown Glass.\r\n',
+      cost: 7501,
+      rating: 2,
+      view_count: 5019,
+      created: '2016-02-26T11:29:19+0000',
+      modified: '2022-11-03T07:15:16+0000',
+      favourite: false,
+      product_images:
+        'https://4.imimg.com/data4/VX/HH/MY-3704202/office-computer-desk-500x500.jpg',
+    },
+    {
+      id: 15,
+      product_category_id: 1,
+      name: 'corner piece',
+      producer: 'Luna',
+      description:
+        'Mild Steel Base In Poder Coated White Finish.8 mm Tempered Glass Table Top.Bottom Shelf In Paimted Brown Glass.',
+      cost: 7820,
+      rating: 2,
+      view_count: 2853,
+      created: '2016-02-26T11:31:35+0000',
+      modified: '2022-11-02T14:02:01+0000',
+      favourite: false,
+      product_images:
+        'https://rukminim1.flixcart.com/image/612/612/kvba7bk0/side-table/0/b/i/20-25-rosewood-sheesham-1-a-907-corner-table-umar-enterprises-10-original-imag88vshbjjvwca.jpeg?q=70',
+    },
+    {
+      id: 16,
+      product_category_id: 1,
+      name: 'Bed room table',
+      producer: 'producer',
+      description: 'Bed room table is there',
+      cost: 7892,
+      rating: 0,
+      view_count: 1731,
+      created: '2016-02-26T11:53:15+0000',
+      modified: '2022-11-03T06:58:01+0000',
+      favourite: false,
+      product_images:
+        'https://rukminim1.flixcart.com/image/612/612/kvba7bk0/side-table/0/b/i/20-25-rosewood-sheesham-1-a-907-corner-table-umar-enterprises-10-original-imag88vshbjjvwca.jpeg?q=70',
+    },
+    {
+      id: 17,
+      product_category_id: 1,
+      name: 'kitchen table',
+      producer: 'producer',
+      description: 'kitchen table',
+      cost: 2350,
+      rating: 3,
+      view_count: 1719,
+      created: '2016-02-26T11:54:33+0000',
+      modified: '2022-11-03T06:53:53+0000',
+      favourite: false,
+      product_images:
+        'https://www.ikea.com/in/en/images/products/lerhamn-table-light-antique-stain-white-stain__0732510_pe738650_s5.jpg',
+    },
+    {
+      id: 18,
+      product_category_id: 1,
+      name: 'hall table',
+      producer: 'producer',
+      description: 'hall table',
+      cost: 7563,
+      rating: 2,
+      view_count: 2736,
+      created: '2016-02-26T11:54:58+0000',
+      modified: '2022-11-02T14:01:36+0000',
+      favourite: false,
+      product_images:
+        'https://www.iconbydesign.com.au/assets/full/OW1163.jpg?20210318031947',
+    },
+    {
+      id: 19,
+      product_category_id: 1,
+      name: 'children table',
+      producer: 'producer',
+      description: 'children table',
+      cost: 2560,
+      rating: 3,
+      view_count: 1379,
+      created: '2016-02-26T11:55:36+0000',
+      modified: '2022-11-02T14:02:06+0000',
+      favourite: false,
+      product_images:
+        'https://www.ikea.com/in/en/images/products/mammut-childrens-table-in-outdoor-red__0735839_pe740209_s5.jpg?f=s',
+    },
+  ];
