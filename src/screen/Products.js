@@ -14,6 +14,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const Products = () => {
   const [imagedata, setImagedata] = useState(false);
+  const [itemid, setItemid] = useState();
   const navigation = useNavigation();
 
   const handleFav = item => {
@@ -21,20 +22,30 @@ const Products = () => {
       if (ele.id === item) {
         ele.favourite = ele.favourite ? false : true;
         setImagedata(imagedata ? false : true);
-        // console.log("234",imagedata ? false : true);
-        // AsyncStorage.setItem('FavouriteValue', JSON.stringify(imagedata ? false : true));
-        // console.log("3333",imagedata ? false : true);
+        setItemid(item);
       }
     });
   };
 
   const getAsyncStorageData = async () => {
-      await AsyncStorage.setItem('FavouriteValue', JSON.stringify(imagedata ? false : true));
-      // console.log("3333",imagedata ? false : true);
-      const valueData = await AsyncStorage.getItem('FavouriteValue');
-      // console.log("111111",valueData);
-      setImagedata(JSON.parse(valueData));
-  }
+    await AsyncStorage.setItem(
+      'FavouriteValue',
+      JSON.stringify(imagedata ? false : true),
+    );
+    await AsyncStorage.setItem('FavouriteId', JSON.stringify(itemid));
+    console.log('3333', imagedata ? false : true);
+    const valueData = await AsyncStorage.getItem('FavouriteValue');
+    const valueId = await AsyncStorage.getItem('FavouriteId');
+    if (valueId !== null || valueId !== undefined) {
+      data.map(ele => {
+        if (ele.id === valueId) {
+          ele.favourite = ele.favourite ? false : true;
+        }
+        setImagedata(valueData);
+      });
+    }
+    setImagedata(JSON.parse(valueData));
+  };
 
   useEffect(() => {
     getAsyncStorageData();
@@ -84,6 +95,9 @@ const Products = () => {
         keyExtractor={item => item.id}
         renderItem={renderList}
       />
+      <TouchableOpacity onPress={() => getAsyncStorageData()}>
+        <Text>Ram</Text>
+      </TouchableOpacity>
     </SafeAreaView>
   );
 };
